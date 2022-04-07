@@ -9,9 +9,9 @@ PSO alogrithm tries to find the optimum(minimum or maximum) for any given functi
 Initially all the particles are distributed all around the parameter space and thy are assigned random valocities. Then the value of given function is calculated at the position of all the particles.Then the velocities of all the particles changes in all the dimentions after 1 unit of time according to the following formula
 
 <h1 align="center">v(t+1) = w*v(t) + c1*r1*(pBest -x(t)) + c2*r2*(gBest - x(t))</h1>
-Here v(t+1) is updated velocity of particle.
-x(t) and v(t) are current position and velocity respectively.
-w is factor of inertia.(Inertia is tendency of particle to continue it's movement in it's current direction)
-pBest (Personal best) is best  location explored by particle itself,where value of given function was optimum.
-gBest (Global best) is best  location explored by any particle among all the particles in the swarm,where value of given function was optimum.
-The factors r1 and r2 are stochastic factors which determine at any given instance of time the instinct to move towards the pBest and gBest respectively. Their value varies between 0 to 1 in every iteration.
+- Here v(t+1) is updated velocity of particle.
+- x(t) and v(t) are current position and velocity respectively.
+- w is factor of inertia.(Inertia is tendency of particle to continue it's movement in it's current direction)
+- pBest (Personal best) is best  location explored by particle itself,where value of given function was optimum.
+- gBest (Global best) is best  location explored by any particle among all the particles in the swarm,where value of given function was optimum.
+- The factors r1 and r2 are stochastic factors which determine at any given instance of time the instinct to move towards the pBest and gBest respectively. Their value varies between 0 to 1 in every iteration.
