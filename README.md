@@ -6,7 +6,7 @@ In this project I am investigating the use of particle swarm optimizer algorithm
 
 ### Particle swarm optimization algorithm 
 PSO alogrithm tries to find the optimum(minimum or maximum) for any given function in given parameter space.
-Initially all the particles are distributed all around the parameter space and thy are assigned random valocities. Then the value of given function is calculated at the position of all the particles.Then the velocities of all the particles changes in all the dimentions after 1 unit of time according to the following formula
+Initially all the particles are distributed all around the parameter space and thy are assigned random valocities. Then the value of given function is calculated at the position of all the particles.Then the velocities of all the particles changes in all the dimentions after 1 unit of time according to the following formula.
 
     v(t+1) = w*v(t) + c1*r1*(pBest -x(t)) + c2*r2*(gBest - x(t))
 
@@ -20,4 +20,4 @@ Initially all the particles are distributed all around the parameter space and t
 ### Using PSO for gravitational wave data analysis
 - I have used PyCBC package in this project extensively. From this package one can download data of previously recorded mergers, generate wave templates with various parameters, can do signal processing and much more.
 - The function which is to be maximized in this case is called signal to noise ratio(SNR).Which is calculated by doing matched filtering operation on sample data and template.
-- Until now I have found masses of object 1 and mass of object 2 in Merger event "GW150914" using particle swarm optimizer algorithm
+- Until now I have found masses of object 1 and mass of object 2 in Merger event "GW150914" using particle swarm optimizer algorithm. Plot of the real data and template generated with mass 1 and mass 2(which are found using PSO) can be seen below.
