@@ -8,7 +8,7 @@ In this project I am investigating the use of particle swarm optimizer algorithm
 PSO alogrithm tries to find the optimum(minimum or maximum) for any given function in given parameter space.
 Initially all the particles are distributed all around the parameter space and thy are assigned random valocities. Then the value of given function is calculated at the position of all the particles.Then the velocities of all the particles changes in all the dimentions after 1 unit of time according to the following formula
 
-<h1 align="center">v(t+1) = w*v(t) + c1*r1*(pBest -x(t)) + c2*r2*(gBest - x(t))</h1>
+<h2 align="center">v(t+1) = w*v(t) + c1*r1*(pBest -x(t)) + c2*r2*(gBest - x(t))</h2>
 *Here v(t+1) is updated velocity of particle.
 *x(t) and v(t) are current position and velocity respectively.
 - w is factor of inertia.(Inertia is tendency of particle to continue it's movement in it's current direction)
