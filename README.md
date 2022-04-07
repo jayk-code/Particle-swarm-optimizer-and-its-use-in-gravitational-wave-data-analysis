@@ -18,6 +18,6 @@ Initially all the particles are distributed all around the parameter space and t
 - The factors r1 and r2 are stochastic factors which determine at any given instance of time the instinct to move towards the pBest and gBest respectively. Their value varies between 0 to 1 in every iteration.
 
 ### Using PSO for gravitational wave data analysis
-I have used PyCBC package in this project extensively. From this package one can download data of previously recorded mergers, generate wave templates with various parameters, can do signal processing and much more.
-The function which is to be maximized in this case is called signal to noise ratio(SNR).Which is calculated by doing matched filtering operation on sample data and template.
-Until now I have found masses of object 1 and mass of object 2 in Merger event "GW150914" using particle swarm optimizer algorithm
+- I have used PyCBC package in this project extensively. From this package one can download data of previously recorded mergers, generate wave templates with various parameters, can do signal processing and much more.
+- The function which is to be maximized in this case is called signal to noise ratio(SNR).Which is calculated by doing matched filtering operation on sample data and template.
+- Until now I have found masses of object 1 and mass of object 2 in Merger event "GW150914" using particle swarm optimizer algorithm
