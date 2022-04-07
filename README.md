@@ -16,3 +16,6 @@ Initially all the particles are distributed all around the parameter space and t
 - pBest (Personal best) is best  location explored by particle itself,where value of given function was optimum.
 - gBest (Global best) is best  location explored by any particle among all the particles in the swarm,where value of given function was optimum.
 - The factors r1 and r2 are stochastic factors which determine at any given instance of time the instinct to move towards the pBest and gBest respectively. Their value varies between 0 to 1 in every iteration.
+
+
+I have used PyCBC package in this project extensively. From this package one can download data of previously recorded mergers, generate wave templates with various parameters, can do signal processing and much more.
