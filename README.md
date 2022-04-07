@@ -20,4 +20,4 @@ Initially all the particles are distributed all around the parameter space and t
 - w is factor of inertia.(Inertia is tendency of particle to continue it's movement in it's current direction)
 - pBest (Personal best) is best  location explored by particle itself,where value of given function was optimum.
 - gBest (Global best) is best  location explored by any particle among all the particles in the swarm,where value of given function was optimum.
-- The factors r1 and r2 are stochastic factors which determine at any given instance of time the instinct to move towards the pBest and gBest respectively. Their value varies between 0 to 1 in every iteration.
+
